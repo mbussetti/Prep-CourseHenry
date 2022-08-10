@@ -22,7 +22,7 @@ const {
   continueStatement
 } = require('../homework');
 
-describe('devolverPrimerElemento(arr)', function() {
+describe('devolverPrimerElemento(arr)' , function() {
   it('should return the first item in the array', function() {
     expect(devolverPrimerElemento([10, 10, 16, 12])).toBe(10);
     expect(devolverPrimerElemento([97, 100, 80, 55, 72, 94])).toBe(97);
