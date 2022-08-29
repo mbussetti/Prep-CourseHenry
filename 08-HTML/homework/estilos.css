@@ -1,0 +1,77 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(158, 107, 94);
+    color: antiquewhite;
+    
+}
+header{
+    display: block;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 5px;
+    background-image: url(https://img.freepik.com/vector-gratis/forma-metaball-fluido-3d-abstracto-bolas-rosas-gotas-organicas-pastel-liquido-synthwave-color-degradado_1217-5321.jpg?w=996&t=st=1661732293~exp=1661732893~hmac=6d1d5daeb4ac39e20eaaa8ddc8caa1ef71b96df766bba3989f24434091f5e015);
+    color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+header img{
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#nombre{
+    font-size: 50px;
+    padding:5px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    color:whitesmoke
+}
+#descripcion{
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+}
+#principal{
+    width:70% ;
+    margin: 40px;
+
+}
+#educacion{
+    border: solid 1px;
+    padding: 10px;
+
+}
+#educacion h4{
+    text-decoration:underline;
+    
+}
+#experiencia{
+    margin-top: 70px;
+    border: solid 1px;
+    padding: 10px;
+
+}
+.aside{
+    margin-bottom:70px;
+    border: solid 1px;
+    padding: 10px;
+}
+#columnas{
+    display: flex;
+    align-items: center;
+}
+#aside{
+    align-self:center;
+    justify-self:end;
+    width: 30%;
+}
+#footer{
+    text-align: justify;
+    width: 60%;
+    font-size: medium;
+    border:solid 1px;
+    margin: 0 auto;
+    padding: 10px;
+ 
+}
